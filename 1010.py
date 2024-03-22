@@ -1,0 +1,8 @@
+code1, unit1, price1= map(float,input().split())
+code1=int(code1)
+unit1=int(unit1)
+code2, unit2, price2= map(float,input().split())
+code2=int(code2)
+unit2=int(unit2)
+totalPrice= (unit1*price1)+ (unit2*price2)
+print(f"VALOR A PAGAR: R$ {totalPrice:.2f}")
