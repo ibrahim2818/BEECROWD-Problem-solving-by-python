@@ -1,0 +1,7 @@
+x= int(input())
+years=abs( x//365)
+months= abs((x%365)//30)
+days= abs((x%365)%30)
+print(f'''{years} ano(s)
+{months} mes(es)
+{days} dia(s)''')
